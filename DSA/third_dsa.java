@@ -20,27 +20,30 @@ public class third_dsa {
         a.add(17);  // 5
 
 
-        b.add(100);  // 6
-        b.add(200);   // 7
-        b.add(300);  // 8
+        System.out.println(a.contains(17));  // Contain means Seaching Elements Exists Or Not In this ArrayList.
 
 
-        a.addAll(b);
+        // b.add(100);  // 6
+        // b.add(200);   // 7
+        // b.add(300);  // 8
 
 
-        int change = a.get(0)+a.get(6);
-        int change2 = a.get(1)+a.get(7);
-        int change3 = a.get(2)+a.get(8);
+        // a.addAll(b);
+
+
+        // int change = a.get(0)+a.get(6);
+        // int change2 = a.get(1)+a.get(7);
+        // int change3 = a.get(2)+a.get(8);
 
 
         
-        System.out.println(change);
-        System.out.println(change2);
+        // System.out.println(change);
+        // System.out.println(change2);
 
-        for(int i=1; i<=5; i++){
+        // for(int i=1; i<=5; i++){
 
-            System.out.println(a.get(i));
-        }
+        //     System.out.println(a.get(i));
+        // }
 
         // a.remove(1);
          
